@@ -31,6 +31,9 @@ devDependencies:
   tslib:
     specifier: ^2.6.2
     version: 2.6.2
+  typescript:
+    specifier: ^5.3.3
+    version: 5.3.3
   uWebSockets.js:
     specifier: github:uNetworking/uWebSockets.js#v20.39.0
     version: github.com/uNetworking/uWebSockets.js/ec37cb6444a284c4a0a8d50041a23a4bac9e5715

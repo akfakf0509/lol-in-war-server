@@ -24,6 +24,5 @@ jobs:
           node-version: 20.x
           cache: "pnpm"
 
-      - name: build test
-        run: pnpm install
-        run: pnpm start
+      - run: pnpm install
+      - run: pnpm start

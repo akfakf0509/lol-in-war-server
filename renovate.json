@@ -1,3 +1,7 @@
 {
-  "extends": ["config:recommended", ":automergeMinor"]
+  "extends": [
+    "config:recommended",
+    ":automergeMinor",
+    ":automergePatch",
+  ]
 }

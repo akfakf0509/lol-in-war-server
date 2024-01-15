@@ -18,12 +18,11 @@
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
-    "@types/node": "^20.10.8",
+    "@types/node": "^20.11.2",
     "nodemon": "^3.0.2",
-    "socket.io": "^4.7.3",
+    "socket.io": "^4.7.4",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.3.3",
-    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.39.0"
+    "typescript": "^5.3.3"
   }
 }

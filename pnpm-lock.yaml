@@ -10,7 +10,7 @@ optionalDependencies:
     version: 4.0.8
   utf-8-validate:
     specifier: ^6.0.3
-    version: 6.0.3
+    version: 6.0.4
 
 devDependencies:
   '@tsconfig/recommended':
@@ -24,7 +24,7 @@ devDependencies:
     version: 3.1.0
   socket.io:
     specifier: ^4.7.4
-    version: 4.7.5(bufferutil@4.0.8)(utf-8-validate@6.0.3)
+    version: 4.7.5(bufferutil@4.0.8)(utf-8-validate@6.0.4)
   ts-node:
     specifier: ^10.9.2
     version: 10.9.2(@types/node@20.12.10)(typescript@5.4.5)
@@ -229,7 +229,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /engine.io@6.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.3):
+  /engine.io@6.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.4):
     resolution: {integrity: sha512-KdVSDKhVKyOi+r5uEabrDLZw2qXStVvCsEB/LN3mw4WFi6Gx50jTyuxYVCwAAC0U46FdnzP/ScKRBTXb/NiEOg==}
     engines: {node: '>=10.2.0'}
     dependencies:
@@ -242,7 +242,7 @@ packages:
       cors: 2.8.5
       debug: 4.3.4(supports-color@5.5.0)
       engine.io-parser: 5.2.2
-      ws: 8.11.0(bufferutil@4.0.8)(utf-8-validate@6.0.3)
+      ws: 8.11.0(bufferutil@4.0.8)(utf-8-validate@6.0.4)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -347,6 +347,11 @@ packages:
     hasBin: true
     requiresBuild: true
 
+  /node-gyp-build@4.8.1:
+    resolution: {integrity: sha512-OSs33Z9yWr148JZcbZd5WiAXhh/n9z8TxQcdMhIOlpN9AhWpLfvVFO73+m77bBABQMaY9XSvIa+qk0jlI7Gcaw==}
+    hasBin: true
+    requiresBuild: true
+
   /nodemon@3.1.0:
     resolution: {integrity: sha512-xqlktYlDMCepBJd43ZQhjWwMw2obW/JRvkrLxq5RCNcuDDX1DbcPT+qT1IlIIdf+DhnWs90JpTMe+Y5KxOchvA==}
     engines: {node: '>=10'}
@@ -412,11 +417,11 @@ packages:
       semver: 7.6.0
     dev: true
 
-  /socket.io-adapter@2.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.3):
+  /socket.io-adapter@2.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.4):
     resolution: {integrity: sha512-wDNHGXGewWAjQPt3pyeYBtpWSq9cLE5UW1ZUPL/2eGK9jtse/FpXib7epSTsz0Q0m+6sg6Y4KtcFTlah1bdOVg==}
     dependencies:
       debug: 4.3.4(supports-color@5.5.0)
-      ws: 8.11.0(bufferutil@4.0.8)(utf-8-validate@6.0.3)
+      ws: 8.11.0(bufferutil@4.0.8)(utf-8-validate@6.0.4)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -433,7 +438,7 @@ packages:
       - supports-color
     dev: true
 
-  /socket.io@4.7.5(bufferutil@4.0.8)(utf-8-validate@6.0.3):
+  /socket.io@4.7.5(bufferutil@4.0.8)(utf-8-validate@6.0.4):
     resolution: {integrity: sha512-DmeAkF6cwM9jSfmp6Dr/5/mfMwb5Z5qRrSXLpo3Fq5SqyU8CMF15jIN4ZhfSwu35ksM1qmHZDQ/DK5XTccSTvA==}
     engines: {node: '>=10.2.0'}
     dependencies:
@@ -441,8 +446,8 @@ packages:
       base64id: 2.0.0
       cors: 2.8.5
       debug: 4.3.4(supports-color@5.5.0)
-      engine.io: 6.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.3)
-      socket.io-adapter: 2.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.3)
+      engine.io: 6.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
+      socket.io-adapter: 2.5.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
       - bufferutil
@@ -520,12 +525,12 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /utf-8-validate@6.0.3:
-    resolution: {integrity: sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==}
+  /utf-8-validate@6.0.4:
+    resolution: {integrity: sha512-xu9GQDeFp+eZ6LnCywXN/zBancWvOpUMzgjLPSjy4BRHSmTelvn2E0DG0o1sTiw5hkCKBHo8rwSKncfRfv2EEQ==}
     engines: {node: '>=6.14.2'}
     requiresBuild: true
     dependencies:
-      node-gyp-build: 4.8.0
+      node-gyp-build: 4.8.1
 
   /v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
@@ -536,7 +541,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /ws@8.11.0(bufferutil@4.0.8)(utf-8-validate@6.0.3):
+  /ws@8.11.0(bufferutil@4.0.8)(utf-8-validate@6.0.4):
     resolution: {integrity: sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -549,7 +554,7 @@ packages:
         optional: true
     dependencies:
       bufferutil: 4.0.8
-      utf-8-validate: 6.0.3
+      utf-8-validate: 6.0.4
     dev: true
 
   /yallist@4.0.0:

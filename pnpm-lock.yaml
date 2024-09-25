@@ -20,7 +20,7 @@ importers:
         version: 1.0.7
       '@types/node':
         specifier: ^20.11.2
-        version: 20.16.8
+        version: 20.16.9
       nodemon:
         specifier: ^3.0.2
         version: 3.1.7
@@ -29,7 +29,7 @@ importers:
         version: 4.8.0(bufferutil@4.0.8)(utf-8-validate@6.0.4)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.16.8)(typescript@5.6.2)
+        version: 10.9.2(@types/node@20.16.9)(typescript@5.6.2)
       tslib:
         specifier: ^2.6.2
         version: 2.7.0
@@ -77,8 +77,8 @@ packages:
   '@types/cors@2.8.17':
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
 
-  '@types/node@20.16.8':
-    resolution: {integrity: sha512-sbo5JmfbZNkyDv+2HCccr9Y9ZkKJBMTru7UdAsCojMGjKNjdaOV73bqEW242QrHEZL8R4LbHMrW+FHB5lZ5/bw==}
+  '@types/node@20.16.9':
+    resolution: {integrity: sha512-rkvIVJxsOfBejxK7I0FO5sa2WxFmJCzoDwcd88+fq/CUfynNywTo/1/T6hyFz22CyztsnLS9nVlHOnTI36RH5w==}
 
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
@@ -368,9 +368,9 @@ snapshots:
 
   '@types/cors@2.8.17':
     dependencies:
-      '@types/node': 20.16.8
+      '@types/node': 20.16.9
 
-  '@types/node@20.16.8':
+  '@types/node@20.16.9':
     dependencies:
       undici-types: 6.19.8
 
@@ -447,7 +447,7 @@ snapshots:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.17
-      '@types/node': 20.16.8
+      '@types/node': 20.16.9
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.4.2
@@ -580,14 +580,14 @@ snapshots:
 
   touch@3.1.1: {}
 
-  ts-node@10.9.2(@types/node@20.16.8)(typescript@5.6.2):
+  ts-node@10.9.2(@types/node@20.16.9)(typescript@5.6.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.16.8
+      '@types/node': 20.16.9
       acorn: 8.11.3
       acorn-walk: 8.3.1
       arg: 4.1.3

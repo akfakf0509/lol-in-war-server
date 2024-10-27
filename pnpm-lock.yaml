@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@tsconfig/recommended':
         specifier: ^1.0.3
-        version: 1.0.7
+        version: 1.0.8
       '@types/node':
         specifier: ^20.11.2
         version: 20.17.1
@@ -68,8 +68,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsconfig/recommended@1.0.7':
-    resolution: {integrity: sha512-xiNMgCuoy4mCL4JTywk9XFs5xpRUcKxtWEcMR6FNMtsgewYTIgIR+nvlP4A4iRCAzRsHMnPhvTRrzp4AGcRTEA==}
+  '@tsconfig/recommended@1.0.8':
+    resolution: {integrity: sha512-TotjFaaXveVUdsrXCdalyF6E5RyG6+7hHHQVZonQtdlk1rJZ1myDIvPUUKPhoYv+JAzThb2lQJh9+9ZfF46hsA==}
 
   '@types/cookie@0.4.1':
     resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
@@ -362,7 +362,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsconfig/recommended@1.0.7': {}
+  '@tsconfig/recommended@1.0.8': {}
 
   '@types/cookie@0.4.1': {}
 
